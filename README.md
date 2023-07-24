@@ -34,4 +34,6 @@
 
 # 注意⚠️
 
-使用的过程中，可将 `plugins-jetbrains`、`config-jetbrains` 目录下的其他插件删除（不是必须的，也可以不删除）
+使用的过程中，可将 `plugins-jetbrains`、`config-jetbrains` 目录下的其他插件删除（不是必须的，也可以不删除）。
+
+如果您觉得本程序好用，建议您立即删除本程序并购买正版：[https://brucege.com/pay/view](https://brucege.com/pay/view)
