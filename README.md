@@ -30,6 +30,8 @@
 
 启动 IDEA 即可
 
+<img width="495" src="https://user-images.githubusercontent.com/34997494/255570584-13bb94f9-d322-4329-b584-584269f1709c.png" alt="">
+
 # 注意⚠️
 
 使用的过程中，可将 `plugins-jetbrains`、`config-jetbrains` 目录下的其他插件删除
