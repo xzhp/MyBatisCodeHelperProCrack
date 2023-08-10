@@ -26,7 +26,7 @@
 上面的地址替换成刚才解压地址
 ```
 
-下载 `MyBatisCodeHelperProCrackPlugin-x.x.x.jar` https://github.com/starxg/MyBatisCodeHelperProCrack/releases 对应的版本放到 `C:\ja-netfilter-all\plugins-jetbrains` 目录。（不需要下载 `MybatisCodeHelperNew-x.x.x.zip`)
+下载 [MyBatisCodeHelperProCrackPlugin-x.x.x.jar](https://github.com/starxg/MyBatisCodeHelperProCrack/releases) 对应的版本放到 `C:\ja-netfilter-all\plugins-jetbrains` 目录。（不需要下载 `MybatisCodeHelperNew-x.x.x.zip`)
 
 
 启动 IDEA 即可
