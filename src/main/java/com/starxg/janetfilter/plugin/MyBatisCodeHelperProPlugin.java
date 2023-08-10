@@ -29,6 +29,11 @@ public class MyBatisCodeHelperProPlugin implements PluginEntry {
     }
 
     @Override
+    public String getVersion() {
+        return "v1.0.1";
+    }
+
+    @Override
     public List<MyTransformer> getTransformers() {
         return transformers;
     }

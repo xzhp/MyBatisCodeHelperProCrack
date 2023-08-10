@@ -14,7 +14,7 @@ import java.util.Objects;
 public class CrackTransformer implements MyTransformer {
     @Override
     public String getHookClassName() {
-        return "com/ccnode/codegenerator/T/c/a";
+        return "com/ccnode/codegenerator/w/f/a";
     }
 
 
@@ -38,8 +38,8 @@ public class CrackTransformer implements MyTransformer {
                         .invoke(loader);
 
                 if (!Objects.equals(pluginDescriptor.getClass()
-                        .getDeclaredMethod("getVersion").invoke(pluginDescriptor), "3.2.1")) {
-                    System.err.println("目前仅支持 3.2.1 版本 https://plugins.jetbrains.com/plugin/9837-mybatiscodehelperpro/versions/stable/355781");
+                        .getDeclaredMethod("getVersion").invoke(pluginDescriptor), "3.2.2")) {
+                    System.err.println("目前仅支持 3.2.2 版本 https://plugins.jetbrains.com/plugin/9837-mybatiscodehelperpro/versions/stable/374288");
                     return classBytes;
                 }
 
@@ -58,10 +58,10 @@ public class CrackTransformer implements MyTransformer {
             // rename
             clazz.getDeclaredMethod("a", new CtClass[]{pool.get("java.lang.String")}).setName("a0");
 
-            clazz.addMethod(CtMethod.make("public static com.ccnode.codegenerator.T.e.b a (java.lang.String s){ " +
-                            "com.ccnode.codegenerator.T.e.b a = a0(s);" +
+            clazz.addMethod(CtMethod.make("public static com.ccnode.codegenerator.w.d.c a (java.lang.String s){ " +
+                            "com.ccnode.codegenerator.w.d.c a = a0(s);" +
                             // paidKey
-                            "a.b(java.util.UUID.randomUUID().toString().replace(\"-\",\"\"));" +
+                            "a.a(java.util.UUID.randomUUID().toString().replace(\"-\",\"\"));" +
                             //  valid
                             "a.a(java.lang.Boolean.TRUE);" +
                             //  validTo 2099 年

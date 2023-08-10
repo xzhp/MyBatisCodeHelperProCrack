@@ -11,7 +11,7 @@ import java.security.ProtectionDomain;
 public class HideMacTransformer implements MyTransformer {
     @Override
     public String getHookClassName() {
-        return "com/ccnode/codegenerator/Z/L";
+        return "com/ccnode/codegenerator/P/aO";
     }
 
 
@@ -21,7 +21,7 @@ public class HideMacTransformer implements MyTransformer {
             final ClassPool pool = ClassPool.getDefault();
             final CtClass clazz = pool.makeClass(new ByteArrayInputStream(classBytes));
 
-            final CtMethod method = clazz.getDeclaredMethod("b");
+            final CtMethod method = clazz.getDeclaredMethod("a");
             method.insertBefore("if(true)return \"AB-CD-EF-GH-IJ-KL\";");
 
             classBytes = clazz.toBytecode();
